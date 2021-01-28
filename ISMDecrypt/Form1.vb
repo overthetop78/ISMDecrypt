@@ -6,8 +6,8 @@
         Dim ResultExtChrome = MsgBox("Widevine Chrome Extension isn't installed ?", vbApplicationModal + vbYesNo + vbExclamation, "Widevine Chrome Extension")
         ' si ce n'est pas installé, on va ouvrir le dossier a dezipper et un fichier texte avec le bloc-note pour donner les infos 
         If MsgBoxResult.No Then
-            Dim Proc As New Process
-            Proc.Start()
+
+
         End If
     End Sub
 End Class
