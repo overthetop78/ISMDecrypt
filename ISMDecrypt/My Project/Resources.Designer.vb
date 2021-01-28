@@ -59,25 +59,5 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property Bento4_SDK_1_6_0_637_x86_64_microsoft_win32() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Bento4_SDK_1_6_0_637_x86_64_microsoft_win32", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property widevineL3Decryptor_Chrome_Extension() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("widevineL3Decryptor_Chrome_Extension", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
     End Module
 End Namespace
